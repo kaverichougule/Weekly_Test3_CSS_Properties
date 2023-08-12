@@ -1,4 +1,4 @@
-Hosted Link: 
+Hosted Link: https://kaverichougule.github.io/Weekly_Test3_CSS_Properties/
 
 # CSS Properties
 
