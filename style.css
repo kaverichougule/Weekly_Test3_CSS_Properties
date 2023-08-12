@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.offer {
+    text-align: center;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    padding-block: 10px;
+    color: white;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.navSec, .navSecl{
+    margin-right: 35px;
+}
+.navSecl{
+    margin-right: 1.5%;
+}
+input{
+    width: 456px;
+    height: 22px;
+    margin-right: 5px;
+    font-size: 21px;
+} 
+input:focus {
+    outline: none;
+}
+.banner {
+    background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 6% 10%;
+    font-size: larger;
+}
+.banner header {
+    width: 70%;
+    background-color: rgba(0,0,0,0.4);
+    padding: 2%;
+}
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.trending {
+    padding: 1% 5%;
+    background-color: rgba(0,0,0,0.1);
+}
+.trends {
+    margin-block: 10px;
+    color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.3);
+    padding: 1%;
+}
+.product {
+    display: inline-block;
+    height: 150px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 0.1%;
+}
+.Shoe_img {
+    width: 100%;
+    height: 80%;
+}
+.about {
+    background: linear-gradient(to left, #000000, #434343);
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.about_shoe {
+    height: 75%;
+    width: 85%;
+    padding: 2%;
+    margin: auto;
+    margin-top: 7.5%;
+    box-shadow: 0px 0px 10px gray;
+    background: linear-gradient(to left, #e74c3c, #000000);
+}
+.info {
+    max-width: 40%;
+    color: white;
+}
+.info h1{
+    font-size: xx-large;
+    padding-bottom: 30px;
+}
+.info p{
+    font-size: large;
+    padding-bottom: 50px;
+    line-height: 20px;
+}
+.info_img {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px white;
+}
+.info_img:hover {
+    width: 400px;
+    height: 400px;
+    top: 25%;
+    right: 15%;
+}
